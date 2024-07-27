@@ -1,0 +1,22 @@
+.treeview-element {
+    display: flex;
+    float:left;
+    width: 100%;
+}
+
+.treeview-element div {
+    border: 1px solid black;
+    width: 100%;
+}
+
+.toggle {
+    cursor: pointer;
+}
+
+.toggle:before {
+    content: '^'
+}
+
+.treeview-element-expanded:before {
+    content: '>'
+}
